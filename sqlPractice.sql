@@ -31,6 +31,10 @@ CREATE TABLE Checkout_hs (
 INSERT INTO Books_hs (id, title, genre, author)
 VALUES (1, "The Old Man and The Sea", "Fiction", "Ernest Hemingway" )
 
+UPDATE Books_hs
+SET Genre = 'Fiction'
+WHERE Title = 'The Old Man and The Sea'
+
 SELECT * FROM Books_hs
 
 UPDATE Books_hs
